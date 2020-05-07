@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/back_drawble"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDo1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/do2_drawble"
+        android:layout_weight="1">
+    </Button>
+
+    <Button
+        android:id="@+id/btnRe"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/re_drawble"
+        android:layout_weight="1">
+    </Button>
+
+    <Button
+        android:id="@+id/btnMi"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/mi_drawble"
+        android:layout_weight="1">
+    </Button>
+
+    <Button
+        android:id="@+id/btnPa"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/pa_drawble"
+        android:layout_weight="1">
+    </Button>
+
+    <Button
+        android:id="@+id/btnSol"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/sol_drawble"
+        android:layout_weight="1">
+    </Button>
+
+    <Button
+        android:id="@+id/btnLa"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/ra_drawble"
+        android:layout_weight="1">
+    </Button>
+
+    <Button
+        android:id="@+id/btnSi"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/si_drawble"
+        android:layout_weight="1">
+    </Button>
+
+    <Button
+        android:id="@+id/btnDo2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/do2_drawble"
+        android:layout_weight="1">
+    </Button>
+
+
+</LinearLayout>

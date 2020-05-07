@@ -1,0 +1,25 @@
+지도를 사용하려면 API인증키를 발급해야한다.
+
+1. SHA1 인증코드
+C:\Program Files\Android\Android Studio\jre\bin
+keytool.exe의 경로 확인후 CMD 도스화면 진입 -> cd.. 2번입력해서 C:\로 빠져나옴
+C:\>cd C:\Program Files\Android\Android Studio\jre\bin 입력해서 keytool.exe의 경로
+로 이동.
+
+keytool.exe -list -v -keystore C:\Users\ezen\.android\debug.keystore 를 입력하면
+키 저장소 비밀번호 :android<-오타나지않게끔 주의
+
+SHA1 : "복사"
+
+50:E3:E0:A0:61:B8:5C:41:05:C1:12:AC:47:26:C3:02:EF:69:33:8E
+
+2. 구글에 로그인해서 지도 등록
+
+http://code.google.com/apis/console<- 복사해서 크롬에 입력
+-> 구글 아이디 로그인 -> 사용자인증정보 -> 만들기 -> Map Project -> API 및 서비스 사용 설정 클릭 ->
+Maps SDK for Android 클릭 -> 사용 설정 -> 사용자 인증정보 -> API키(생성) -> 키제한 -> 설정 -> 
+-> 안드로이드스튜디오 프로젝트 생성(구글맵 엑티비티) -> 프로젝트이름(SeoulTour)
+
+AIzaSyDgIz-P6scmgCSstc785lcFn-PqPqnet7M
+
+3. API키 발급

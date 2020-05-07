@@ -1,0 +1,2 @@
+include ':app', ':serviceex2', ':notification', ':broadcastex', ':contentproviderex'
+rootProject.name='ServiceEx'

@@ -1,0 +1,29 @@
+1단계.Activity에서 손전등 켜고 끄기
+2단계.서비스에서 손전등 켜고 끄기
+3다계.앱위젯에서 손전등 켜고 끄기
+
+앱위젯:런처에배치하여 빠르게 앱 기능을 제공하는 컴포넌트
+(앱을 띄우지 않고 실행시키는 것)
+
+런처는 바탕화면의 폰을 꾸미는 인테리어
+런처(바탕화면)
+
+File>Widget>App Widget
+Placement : Home-screen only(홈에서만)/잠금화면에서만 가능/둘 다 가능
+Resizable : 사이즈 조절가능
+	가로만 가능/세로만 가능
+Minimu Width : 1 작은 사이즈부터시작해볼께
+
+<<TorchAppWidget.java>>
+
+updateAppWidget
+
+
+onUpdate
+
+
+onEnabled
+
+
+
+onDisabled

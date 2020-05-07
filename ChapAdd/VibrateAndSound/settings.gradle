@@ -1,0 +1,2 @@
+include ':app', ':gifex', ':animationex'
+rootProject.name='VibrateAndSound'

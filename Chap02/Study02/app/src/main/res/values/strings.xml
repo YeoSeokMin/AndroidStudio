@@ -1,0 +1,9 @@
+<resources>
+    <string name="barTitle">"하하하"</string>
+    <string name="app_name">Study02</string>
+    <string name="btnToast">"글자 나타내기"</string>
+    <string name="btnTxtShow">"홈페이지 열기"</string>
+    <string name="imgBtnTest">"버튼 테스트"</string>
+
+
+</resources>

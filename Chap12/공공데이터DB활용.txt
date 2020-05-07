@@ -1,0 +1,21 @@
+<<공공데이터 3가지 활용 방법>>
+<<data.go.kr를 활용>>
+1.그냥 다운로드
+2.회원가입-->제공,사유 키값을 받아서 활용(1일만에 제공)
+3.안드로이드JSON XML활용
+	- 회원가입, 키값, 주소, 매뉴얼 전송
+
+이미존재하는 자료를 DB로 활용
+1.1assets 폴더 생성(app>우클릭>new>Folder>assetsFolder>finish)
+1.assets폴더에 복사
+2.assets폴더에 있는 것을 buffer에다가 byte 단위로 하나하나씩 옮겨담는다.(ReadBuffer)
+3.readerBuffer(차에서 내린다.)/writeBuffer(창고에 적재)
+  패키지안에 database폴더에 옮겨서 저장
+4.SQLiteDatabase 로 활용 
+
+
+업데이트된 공공데이터가 생기면 assets에서 비교
+크기비교 후 비교하면서 적재
+
+
+SQLite 1M로 제한했다.(크면 DB Browser에서 용량줄이기 하면 된다.)

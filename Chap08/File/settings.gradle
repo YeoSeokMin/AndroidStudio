@@ -1,0 +1,2 @@
+include ':app', ':rawex', ':rawex2', ':sdcardex', ':imageviewer', ':imageviewerex11', ':imageviewer2'
+rootProject.name='File'

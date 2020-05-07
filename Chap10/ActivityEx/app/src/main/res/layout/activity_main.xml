@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rdoGrpAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdo2ndAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SecondActivity" />
+        <RadioButton
+            android:id="@+id/rdo3rdAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ThirdActivity" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNewAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새 Activity 열기" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleIndicator"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyle"
+            android:rating="1"
+            android:stepSize="1"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyle"
+            android:rating="2"
+            android:stepSize="0.5"/>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyle"
+            android:rating="3"
+            android:stepSize="1"
+            android:numStars="7"/>
+
+    </LinearLayout>
+</LinearLayout>

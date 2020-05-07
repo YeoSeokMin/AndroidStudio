@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnNaver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open NaverPage" />
+
+    <Button
+        android:id="@+id/btn119"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Phone to 119" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Gallery Menu"/>
+    <Button
+        android:id="@+id/btnEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close App"/>
+
+</LinearLayout>

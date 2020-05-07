@@ -1,0 +1,2 @@
+include ':app', ':tabmenuex', ':javamenu', ':menu2', ':optionmenuex', ':contextmenu', ':toast', ':dialog', ':dialog2', ':chap07ex06', ':chap07ex05', ':chap07ex04', ':chap07ex042', ':actionbartab', ':actionbartabex', ':viewpagertab', ':viewpagertabex'
+rootProject.name='Menu'

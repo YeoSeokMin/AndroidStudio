@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/No1"
+        android:text="스위치 1번"
+        android:clickable="false"
+        android:textSize="20dp">
+    </Switch>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/No2"
+        android:text="스위치 2번"
+        android:clickable="false"
+        android:textSize="20dp">
+    </Switch>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/No3"
+        android:text="스위치 3번"
+        android:clickable="false"
+        android:textSize="20dp">
+    </Switch>
+
+</LinearLayout>

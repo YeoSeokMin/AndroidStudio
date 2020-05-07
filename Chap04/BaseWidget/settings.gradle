@@ -1,0 +1,2 @@
+include ':app', ':ex7', ':ex8', ':ex9', ':viewpager'
+rootProject.name='BaseWidget'

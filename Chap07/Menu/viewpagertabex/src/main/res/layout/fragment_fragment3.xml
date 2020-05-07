@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioGroup
+            android:id="@+id/frdoGrpPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/frdoDog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강아지" />
+            <RadioButton
+                android:id="@+id/frdoCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="고양이" />
+            <RadioButton
+                android:id="@+id/frdoRabbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="토끼" />
+        </RadioGroup>
+        <ImageView
+            android:id="@+id/fivPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

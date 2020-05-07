@@ -1,0 +1,2 @@
+include ':app', ':voteapp', ':tractivity', ':calcactivity', ':implicitintent', ':activitylifecycle', ':splash', ':splashmethod2'
+rootProject.name='ActivityEx'

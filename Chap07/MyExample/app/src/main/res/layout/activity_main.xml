@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnVibratorStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1초진동시작" />
+        <Button
+            android:id="@+id/btnVibratorStart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지정패턴진동" />
+        <Button
+            android:id="@+id/btnVibratorStart3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="무한진동" />
+
+        <Button
+            android:id="@+id/btnVibratorStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="진동멈춤" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알람예약일자" />
+        <EditText
+            android:id="@+id/edtAlarmResv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="예약일자를 선택해주세요" />
+    </LinearLayout>
+
+</LinearLayout>

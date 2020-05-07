@@ -1,0 +1,40 @@
+public void onCreate(Bundle savedInstanceState){
+  super.onCreate(savedInstanceState);
+  setContentView(R.layout.activity_unitsel);
+  
+  Log.d(TAG, "Unit get Start!");
+  
+  //DB확인후 DB파일을 복사한다.
+  DBAdapter dba = new DBAdapter(this);
+  dba.open();
+  
+  gradelist = (ListView)findViewById(R.id.gradelist);
+  unitlist = (ListView)findViewById(R.id.unitlist);
+  
+  //학년셋팅
+        String[] grades = {getResources().getString(R.string.grade1), getResources().getString(R.string.grade2), getResources().getString(R.string.grade3), getResources().getString(R.string.grade4),
+          getResources().getString(R.string.grade5), getResources().getString(R.string.grade6), getResources().getString(R.string.grade7), getResources().getString(R.string.grade8), getResources().getString(R.string.grade9)};
+       
+        adapt = new ArrayAdapter<String>(this, R.layout.gradelist_item, grades);
+        gradelist.setAdapter(adapt);
+       
+        Log.d(TAG, "학년리스트를 셋팅합니다.");
+  
+  //단원셋팅  
+  Cursor c = dba.selectExQuery("select UnitCode as _id, UnitName from itempool;");
+  SimpleCursorAdapter rAdapter = getAdapter(c);
+  unitlist.setAdapter(rAdapter);
+  
+  Log.d(TAG, "단원리스트를 셋팅합니다.");
+  
+  dba.close();
+ }
+ 
+ private SimpleCursorAdapter getAdapter(Cursor paramCursor){
+     
+     String[] columns = new String[] { "UnitName" };
+  int[] to = new int[] { R.id.unitname };
+  
+  SimpleCursorAdapter mAdapter = new SimpleCursorAdapter(unitlist.getContext(), R.layout.unitlist_item, paramCursor, columns, to);
+  return mAdapter;
+    }

@@ -1,0 +1,2 @@
+include ':app', ':autotextview', ':moduetest1', ':scrollview', ':slidingdrawer', ':viewflipper', ':tabhost', ':tabhost2', ':webview'
+rootProject.name='SpecialWidget'

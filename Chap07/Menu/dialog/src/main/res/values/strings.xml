@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dialog</string>
+
+    <string-array name="Favorite">
+        <item>요가</item>
+        <item>요리</item>
+        <item>자수</item>
+    </string-array>
+
+</resources>

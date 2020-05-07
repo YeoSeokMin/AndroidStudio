@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Study01</string>
+    <string name="btnGo">Goto Daum</string>
+    <string name="btnCall">Call 119</string>
+    <string name="btnGallery">Open Gallery</string>
+    <string name="btnEnd">Close</string>
+    <string name="editTxt"></string>
+    <string name="btnToast">글자나타나기</string>
+    <string name="btnOpenHome">홈페이지열기</string>
+
+
+</resources>
